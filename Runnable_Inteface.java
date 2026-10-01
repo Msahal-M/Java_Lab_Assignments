@@ -1,3 +1,11 @@
+/*
+3. Creating Threads using Runnable Interface
+Write a Java program to create two or more threads by implementing the
+Runnable interface. Each thread should perform a separate task.
+Explain why implementing Runnable can be preferable to extending the
+Thread class in certain situations.
+*/
+
 class NumberTask implements Runnable {
     public void run() {
         for (int i = 1; i <= 5; i++) {
@@ -6,9 +14,10 @@ class NumberTask implements Runnable {
     }
 }
 class MessageTask implements Runnable {
+
     public void run() {
         for (int i = 1; i <= 5; i++) {
-            System.out.println("Hello from Runnable");
+            System.out.println("Message: Hello");
         }
     }
 }
