@@ -1,5 +1,5 @@
 /*
-1. FileInputStream – Reading a File
+6. FileInputStream – Reading a File
 Write a Java program to read the contents of a text file named input.txt
 using FileInputStream and display the contents on the console. Handle
 possible exceptions appropriately and ensure that the stream is closed
@@ -18,7 +18,6 @@ public class Main {
             file = new FileInputStream("input.txt");
 
             int ch;
-
             while ((ch = file.read()) != -1) {
                 System.out.print((char) ch);
             }
