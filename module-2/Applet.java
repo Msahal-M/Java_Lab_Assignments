@@ -1,5 +1,5 @@
 /*
-1. Demonstrate the Applet Life Cycle
+11. Demonstrate the Applet Life Cycle
 Develop a Java Applet that displays messages indicating when the init(),
 start(), paint(), stop(), and destroy() methods are executed. Run the
 applet and observe the order in which these methods are invoked. Write a
