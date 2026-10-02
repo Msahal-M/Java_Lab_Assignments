@@ -1,5 +1,5 @@
 /*
-2. Simple Calculator using Swing Components
+22. Simple Calculator using Swing Components
 Develop a GUI-based calculator using Swing components such as JTextField
 and JButton.
 */
