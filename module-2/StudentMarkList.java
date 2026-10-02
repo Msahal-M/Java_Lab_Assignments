@@ -1,5 +1,5 @@
 /*
-3. Student Mark List Application
+23. Student Mark List Application
 Create a Swing application to accept the name, register number, and marks
 in three subjects using text fields.
 */
