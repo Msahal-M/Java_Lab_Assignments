@@ -25,7 +25,7 @@ class MyThread extends Thread {
     }
 }
 
-public class Main {
+public class Thread_life_cycle {
     public static void main(String[] args) throws InterruptedException {
         MyThread t = new MyThread();
 

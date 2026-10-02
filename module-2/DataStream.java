@@ -8,7 +8,7 @@ details.
 
 import java.io.*;
 
-public class Main {
+public class DataStream {
     public static void main(String[] args) {
 
         try {

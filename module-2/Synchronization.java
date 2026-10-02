@@ -29,7 +29,7 @@ class BankAccount {
         }
     }
 }
-public class Main {
+public class Synchronization {
     public static void main(String[] args) throws InterruptedException {
 
         BankAccount account = new BankAccount();

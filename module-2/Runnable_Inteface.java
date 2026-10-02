@@ -22,7 +22,7 @@ class MessageTask implements Runnable {
     }
 }
 
-public class Main {
+public class Runnable_Interface {
     public static void main(String[] args) {
         NumberTask task1 = new NumberTask();
         MessageTask task2 = new MessageTask();

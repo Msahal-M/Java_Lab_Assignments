@@ -1,5 +1,5 @@
 /*
-1. AWT Components and Layout Managers
+16. AWT Components and Layout Managers
 Develop a Java AWT application for a Student Registration Form using
 Frame, Panel, Label, TextField, Choice, Checkbox, and Button. Use
 appropriate layout managers to organize the components neatly. The

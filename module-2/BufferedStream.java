@@ -6,7 +6,7 @@ BufferedInputStream and BufferedOutputStream.
 
 import java.io.*;
 
-public class Main {
+public class BufferedStream {
     public static void main(String[] args) {
         try {
             BufferedInputStream in = new BufferedInputStream(new FileInputStream("input.txt"));

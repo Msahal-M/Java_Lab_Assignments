@@ -30,7 +30,7 @@ class MessageThread extends Thread {
         }
     }
 }
-public class Main {
+public class Thread_Class {
     public static void main(String[] args) {
 
         NumberThread t1 = new NumberThread();
