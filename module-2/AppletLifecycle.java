@@ -8,7 +8,7 @@ brief observation explaining the role of each method.
 
 import java.applet.Applet;
 import java.awt.Graphics;
-public class LifeCycle extends Applet {
+class AppletLifeCycle extends Applet {
 
     public void init() {
         System.out.println("init() method called");
