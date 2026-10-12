@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="https://jakarta.ee/xml/ns/jakartaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-jsptaglibrary_3_0.xsd"
+        version="3.0">
+    <tlib-version>1.0</tlib-version>
+    <short-name>student</short-name>
+    <uri>/WEB-INF/student.tld</uri>
+    <tag>
+        <name>studentInfo</name>
+        <tag-class>studentapp.StudentTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>student</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>studentapp.Student</type>
+        </attribute>
+    </tag>
+</taglib>

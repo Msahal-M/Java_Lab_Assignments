@@ -1,10 +1,10 @@
 import java.sql.*;
 
-public class jdbc2 {
+public class JdbcStudent {
         public static void main(String args[]) throws Exception {
-                String url = "jdbc:mysql://localhost:3306/student";
-                String user = "sahal";
-                String password = "Sahal@123";
+                String url = "jdbc:mysql://localhost:3306/assignment_db";
+                String user = "jdbcuser";
+                String password = "jdbcuser";
 
                 Connection con = DriverManager.getConnection(url, user, password);
 
@@ -21,7 +21,7 @@ public class jdbc2 {
                 ResultSet rs = st.executeQuery(select);
 
                 while (rs.next()) {
-                        System.out.println(rs.getInt("id") + "\n" + rs.getString("name") + "\n" + rs.getInt("age"));
+                        System.out.println("ID : " + rs.getInt("id") + "\n" + "Name : " + rs.getString("name") + "\n" + "Age : " + rs.getInt("age"));
                 }
                 rs.close();
                 st.executeUpdate(delete);

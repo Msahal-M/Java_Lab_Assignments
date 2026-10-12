@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>GET, POST and HEAD</title></head>
+<body>
+    <h1>GET and POST requests</h1>
+    <form method="get" action="requests">
+        <label>GET value: <input name="value"></label>
+        <button type="submit">Send GET</button>
+    </form>
+    <form method="post" action="requests">
+        <label>POST value: <input name="value"></label>
+        <button type="submit">Send POST</button>
+    </form>
+    <p>Test HEAD with: curl -I http://localhost:8080/GetPostHead/requests</p>
+</body>
+</html>
